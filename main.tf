@@ -7,7 +7,7 @@ resource "azurerm_express_route_circuit" "DC_circuit8923" {
   name                  = "expressRoute1"
   resource_group_name   = azurerm_resource_group.az_resources.name
   location              = azurerm_resource_group.az_resources.location
-  service_provider_name = "Equinix"
+  service_provider_name = "Equinox"
   peering_location      = "Silicon Valley"
   bandwidth_in_mbps     = 100
 
